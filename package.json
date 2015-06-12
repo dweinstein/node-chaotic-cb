@@ -1,6 +1,6 @@
 {
   "name": "chaotic-cb",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "introduce chaos to callbacks (inject errors occasionally)",
   "main": "index.js",
   "scripts": {
