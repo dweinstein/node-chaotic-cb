@@ -16,10 +16,10 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/dweinstein/node-chaotic.git"
+    "url": "https://github.com/dweinstein/node-chaotic-cb.git"
   },
   "bugs": {
-    "url": "https://github.com/dweinstein/node-chaotic/issues"
+    "url": "https://github.com/dweinstein/node-chaotic-cb/issues"
   },
-  "homepage": "https://github.com/dweinstein/node-chaotic"
+  "homepage": "https://github.com/dweinstein/node-chaotic-cb"
 }
