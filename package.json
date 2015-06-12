@@ -13,5 +13,13 @@
     "error"
   ],
   "author": "dweinstein",
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dweinstein/node-chaotic.git"
+  },
+  "bugs": {
+    "url": "https://github.com/dweinstein/node-chaotic/issues"
+  },
+  "homepage": "https://github.com/dweinstein/node-chaotic"
 }
