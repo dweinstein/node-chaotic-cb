@@ -1,4 +1,4 @@
-var chaotic = require('./index')(0.1);
+var chaotic = require('./index')();
 
 function callback(err, res) {
   setTimeout(function() {
@@ -13,11 +13,10 @@ function wrap(func) {
   };
 }
 
-var fun = chaotic(callback);
-
 var funTimes = [
-  wrap(fun, null, "ok"),
-  wrap(fun, null, "win")
+  wrap(chaotic(0.9, callback), null, "probably fails"),
+  wrap(chaotic(0.1, callback), null, "probably succeeds"),
+  wrap(chaotic(0.5, callback), new Error("normal error"), "definitely fails, but what kind?")
 ];
 
 funTimes.forEach(function (delayed) {
