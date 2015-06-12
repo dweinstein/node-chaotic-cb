@@ -1,0 +1,17 @@
+{
+  "name": "chaotic",
+  "version": "0.0.1",
+  "description": "introduce chaos to callbacks (inject errors occasionally)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "chaos",
+    "callback",
+    "cb",
+    "error"
+  ],
+  "author": "dweinstein",
+  "license": "MIT"
+}
